@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <SimpleForm />
+    <!-- <SimpleForm /> -->
 
     <hr>
 
@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import SimpleForm from '@/views/SimpleForm'
+// import SimpleForm from '@/views/SimpleForm'
 import ComponentsForm from '@/views/ComponentsForm'
 
 export default {
-  components: { SimpleForm, ComponentsForm }
+  components: { ComponentsForm }
 }
 </script>
 
